@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     port: 4000
   },
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       title: 'Nuxt 3 app',
       meta: [
