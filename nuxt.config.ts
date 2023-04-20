@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   devServer: {
-    port: 4000
+    port: 3000
   },
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },

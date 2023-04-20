@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { data: posts, error } = await useFetch('https://jsonplaceholder.typicode.com/posts/')
+const { data: posts, error } = await useFetch('https://xxxjsonplaceholder.typicode.com/posts/')
 console.log('posts', posts)
 console.log('error', error.value)
 </script>
