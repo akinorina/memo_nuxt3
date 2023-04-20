@@ -10,6 +10,9 @@
     <NuxtLink :to="{ name: 'posts-lazyasync' }">posts-lazyasync</NuxtLink>
     <NuxtLink :to="{ name: 'users' }">users</NuxtLink>
     <NuxtLink :to="{ name: 'users-list' }">users-list</NuxtLink>
+    <NuxtLink :to="{ name: 'state' }">state</NuxtLink>
+    <NuxtLink :to="{ name: 'state-share001' }">state-share001</NuxtLink>
+    <NuxtLink :to="{ name: 'state-not' }">state-not</NuxtLink>
     <NuxtLink to="/coupon">Coupon</NuxtLink>
     <NuxtLink to="/counter">Counter</NuxtLink>
     <NuxtLink to="/hello">Hello</NuxtLink>
