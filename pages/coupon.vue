@@ -10,7 +10,7 @@ const handleClick = () => {
   <div>
     <h1>Page: coupon</h1>
     <button @click="handleClick">Coupon Get</button>
-    <coupon v-if="show" />
+    <LazyCoupon v-if="show" />
   </div>
 </template>
 
