@@ -4,6 +4,10 @@
   <nav>
     <NuxtLink to="/">Home</NuxtLink>
     <NuxtLink to="/about">About</NuxtLink>
+    <NuxtLink :to="{ name: 'posts' }">posts</NuxtLink>
+    <NuxtLink :to="{ name: 'posts-async' }">posts-async</NuxtLink>
+    <NuxtLink :to="{ name: 'posts-lazyfetch' }">posts-lazyfetch</NuxtLink>
+    <NuxtLink :to="{ name: 'posts-lazyasync' }">posts-lazyasync</NuxtLink>
     <NuxtLink :to="{ name: 'users' }">users</NuxtLink>
     <NuxtLink :to="{ name: 'users-list' }">users-list</NuxtLink>
     <NuxtLink to="/coupon">Coupon</NuxtLink>
