@@ -1,8 +1,4 @@
 <script lang="ts" setup>
-definePageMeta({
-  pageTransition: false
-})
-
 useHead({
   title: 'Aboutページ',
   meta: [

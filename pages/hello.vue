@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+definePageMeta({
+  pageTransition: false
+})
+
 const { $hello } = useNuxtApp();
 </script>
 
