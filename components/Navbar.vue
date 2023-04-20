@@ -4,6 +4,8 @@
   <nav>
     <NuxtLink to="/">Home</NuxtLink>
     <NuxtLink to="/about">About</NuxtLink>
+    <NuxtLink :to="{ name: 'users' }">users</NuxtLink>
+    <NuxtLink :to="{ name: 'users-list' }">users-list</NuxtLink>
     <NuxtLink to="/coupon">Coupon</NuxtLink>
     <NuxtLink to="/counter">Counter</NuxtLink>
     <NuxtLink to="/hello">Hello</NuxtLink>
