@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Nuxt 3 for beginners' }
       ],
       link: [
-        { rel: 'icon', href: '/icon.png' }
+        { rel: 'icon', href: '/images/favicon.ico' }
       ]
     }
   }
