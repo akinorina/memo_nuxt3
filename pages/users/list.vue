@@ -1,4 +1,11 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+useHead({
+  title: 'User List',
+  meta: [
+    { name: 'description', content: 'User List' },
+  ],
+});
+</script>
 
 <template>
   <div style="background-color: #fff;">

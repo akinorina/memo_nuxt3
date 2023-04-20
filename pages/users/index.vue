@@ -1,4 +1,11 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+useHead({
+  title: 'User Index',
+  meta: [
+    { name: 'description', content: 'User Index' },
+  ],
+});
+</script>
 
 <template>
   <div style="background-color: #fff;">

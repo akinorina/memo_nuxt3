@@ -1,4 +1,10 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+useHead({
+  titleTemplate: (title) => {
+    return title ? `${title} - Nuxt 3 basic` : 'Nuxt 3 basic';
+  },
+});
+</script>
 
 <template>
   <div style="background-color: #eef;">

@@ -2,6 +2,13 @@
 // ID.
 const router = useRoute();
 console.log('id:', router.params.id)
+
+useHead({
+  title: 'User ID:' + router.params.id,
+  meta: [
+    { name: 'description', content: 'User ID:' + router.params.id },
+  ],
+});
 </script>
 
 <template>

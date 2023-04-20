@@ -2,6 +2,17 @@
 definePageMeta({
   pageTransition: false
 })
+
+useHead({
+  title: 'Aboutページ',
+  meta: [
+    {
+      name: 'description',
+      content: 'Aboutページ',
+    },
+  ],
+});
+
 </script>
 
 <template>
