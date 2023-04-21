@@ -15,5 +15,8 @@ export default defineNuxtConfig({
         { rel: 'icon', href: '/images/favicon.ico' }
       ]
     }
-  }
+  },
+  routeRules: {
+    '/posts/**': { ssr: true },
+  },
 })

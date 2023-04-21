@@ -19,7 +19,7 @@
     <NuxtLink to="/coupon">Coupon</NuxtLink>
     <NuxtLink to="/counter">Counter</NuxtLink>
     <NuxtLink to="/hello">Hello</NuxtLink>
-    <NuxtLink to="">Hello</NuxtLink>
+    <NuxtLink to="/task">Task</NuxtLink>
     <NuxtLink to="https://google.com" target="_blank">Google</NuxtLink>
   </nav>
 </template>
